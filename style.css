@@ -1,183 +1,175 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'Source Sans Pro', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 
-    font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
-.btn{
-    background-color: #ffffff;
-    color:hsl(192, 100%, 34%) ;
-    border:none;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px 20px;
-    margin: 10px;
+.btn {
+  background-color: #ffffff;
+  color: hsl(192, 100%, 34%);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 10px;
 }
-.btn-two{
-    color:  #005FAC;
-    border: none;
-    background-color: aliceblue;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px 25px;
-    margin-top: 10px;
+.btn-two {
+  color: #005fac;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 25px;
+  margin-top: 10px;
 }
 
 /* header ,content_ style */
-.header{
-    width: 100%;
-    background-image: url(./image/banner3.png);
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-
-    
+.header {
+  width: 100%;
+  background-image: url(./image/banner3.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
-.content{  
-    text-align: right;
-    padding-top: 240px ;
-    padding-bottom: 150px;
-    padding-right: 100px;
-    padding-left: 840px;
+.content {
+  text-align: right;
+  padding-top: 240px;
+  padding-bottom: 150px;
+  padding-right: 100px;
+  padding-left: 840px;
 }
-.content_title{
-        font-size: 65px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #151414;
-        line-height: 1em;
+.content_title {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #151414;
+  line-height: 1em;
 }
-.content_des{
-    color: #fff;
-    font-weight: normal;
-    line-height: 1.5em;
+.content_des {
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.5em;
 }
 /* header style end */
 
 /* previous error section */
 
-.mid-wdth{
-    width: 1050px;
-   margin: 0 auto;
-    
+.mid-wdth {
+  width: 1050px;
+  margin: 0 auto;
 }
-.previous-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 200px;
+.previous-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 200px;
 }
-.previousIMG{
-    margin-right: 80px;
+.previousIMG {
+  margin-right: 80px;
 }
-.previousContent{
-   margin:  80px;
+.previousContent {
+  margin: 80px;
 }
-.previousContent .title{
-    font-size: 40px;
-    color: #151414;
-    font-weight: 700px;
-    line-height: 1.2em;
-    padding-bottom: 10px;
+.previousContent .title {
+  font-size: 40px;
+  color: #151414;
+  font-weight: 700px;
+  line-height: 1.2em;
+  padding-bottom: 10px;
 }
-.previousContent .paragraph{
-   color: #444343;
-   size: 16px;
-   text-align: left;
-   padding-bottom: 10px;
-
+.previousContent .paragraph {
+  color: #444343;
+  size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
 }
-li{
-    list-style: none;
-    
+li {
+  list-style: none;
 }
-.list-iteam{
-    padding: 5px;
+.list-iteam {
+  padding: 5px;
 }
-
-
 
 /* my-plans section start */
-.my-plans{
-    display: flex;
-    justify-content: space-around;
-    
+.my-plans {
+  display: flex;
+  justify-content: space-around;
 }
-.my-plans-content{
-    text-align: center;
-    margin-top: 100px;
+.my-plans-content {
+  text-align: center;
+  margin-top: 100px;
 }
-.my-plans-content .img{
-    padding: 20px;
+.my-plans-content .img {
+  padding: 20px;
 }
-.my-plans-content .heading{
-    padding: 10px;
+.my-plans-content .heading {
+  padding: 10px;
 }
 
 /* Linearbg start */
-.linear-bg{
-   
-    background-image:
-    linear-gradient(to right, hsla(214, 80%, 61%, 0.52), rgba(29, 30, 30, 0.73)),
+.linear-bg {
+  background-image: linear-gradient(
+      to right,
+      hsla(214, 80%, 61%, 0.52),
+      rgba(29, 30, 30, 0.73)
+    ),
     url('./image/watch.png');
-    background-size:cover ;
-    background-repeat: no-repeat;
-    height: 350px;
-    border-radius: 5px;
-    margin:130px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  border-radius: 5px;
+  margin: 130px 0;
 }
-.linear-bg-content{
-    text-align: left;
-   padding-top: 100px;
-   padding-left: 50px;
-   
+.linear-bg-content {
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 50px;
 }
-.linear-bg-content h1{
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.6em;
+.linear-bg-content h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.6em;
 }
 
 /* footer section */
-#footer{
-    width: 100%;
-    background-color: #000000;
-    
+#footer {
+  width: 100%;
+  background-color: #000000;
 }
-.left-footer ul li{
-    display: inline-block;
-    padding: 10px;
-} 
-.display{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.left-footer ul li {
+  display: inline-block;
+  padding: 10px;
 }
-.left-footer{
-    text-align: left;
-    margin: 175px 100px;
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-footer {
+  text-align: left;
+  margin: 175px 100px;
 }
 .footer-heading {
-    color: white;
-    font-weight: 600;
-    font-size: 36px;
-    padding-bottom:10px ;
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 10px;
 }
- .left-footer .paragraph{
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 1.5em;
-    padding-right:20px ;
+.left-footer .paragraph {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding-right: 20px;
 }
-.right-footer{
-    padding: 100px;
+.right-footer {
+  padding: 100px;
 }
-.right-footer .email{
-    padding: 20px;
+.right-footer .email {
+  padding: 20px;
 }
